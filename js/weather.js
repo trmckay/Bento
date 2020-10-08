@@ -5,11 +5,11 @@ const descElement = document.querySelector(".temperature-description p");
 // App data
 const weather = {};
 weather.temperature = {
-  unit: "celsius",
+  unit: "fahrenheit",
 };
 
 // Change to 'F' for Fahrenheit
-var tempUnit = "C";
+var tempUnit = "F";
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
